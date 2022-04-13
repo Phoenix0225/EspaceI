@@ -1,0 +1,37 @@
+#logo {
+    width: 180px;
+}
+
+#chk-box-connexion {
+    height: 15px;
+    width: 15px;
+    margin: 0px;
+    position: relative;
+}
+
+.form-check{
+    padding-left: 0%;
+}
+
+.comboBoxForm{
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}

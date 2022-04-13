@@ -1,0 +1,13 @@
+.fb_left{
+    float: left;
+}
+.fb_label{
+    float:left;
+}
+
+.fb_chk-box {
+    height:   20px !important;
+    width:    20px !important;
+    margin:   0px !important;
+    position: relative !important;
+}

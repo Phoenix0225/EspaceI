@@ -1,0 +1,171 @@
+#login_tile {
+    height: calc(100vh - 84px);
+    padding: 20vh 0;
+}
+
+#create_faq_tile {
+    padding: 15vh 0;
+}
+
+.row-faq {
+    margin-bottom: 20px;
+}
+
+.faq-header {
+    color: white;
+    background-color: #133e3f;
+}
+
+.reponse {
+    display: none;
+    list-style-type: none;
+}
+
+.bi {
+    padding: 0 3px;
+}
+
+.bi-dash-circle-fill {
+    color: red;
+}
+
+.bi-dash-circle-fill:hover, .bi-caret-down-fill:hover, .bi-caret-up-fill:hover, .comboBoxForm, tr :hover, .participer {
+    cursor: pointer;
+}
+
+.text-question {
+    color: black;
+    background-color: #d5eded;
+}
+
+#ajout-groupe-faq {
+    padding: 5px;
+    margin: 10px 0 10px 10px;
+    height: 40px;
+    width: 40px;
+}
+
+#nouveauType {
+    display: none;
+    width: 100%;
+}
+
+.stretchFlex {
+    width: 100%;
+}
+
+.form-div {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.alert {
+    margin: 0;
+}
+
+.btn-nav-img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn-nav {
+    padding: 40px 10px 0 10px;
+    margin-left: 0 !important;
+}
+
+.tbl-settings tr :hover {
+    background-color: #4bc5b8;
+}
+
+.cache {
+    display: none;
+}
+
+#form-settings .container {
+    border-left: 1px solid;
+    border-color: #0f6674;
+}
+
+#form-settings input {
+    width: 50%;
+}
+
+#nav-disconnect {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+#nav-disconnect :hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#create-ticket-tile {
+    padding: 8vh 0;
+}
+
+.create-tile {
+    min-height: calc(100vh - 84px);
+}
+
+.option-billets {
+    min-width: 120px;
+}
+
+.w-150px {
+    width: 150px;
+}
+
+.min-w-225px {
+    min-width: 225px;
+}
+
+.border-rounded-right {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+@media only screen and (max-width: 975px) {
+    #courriel-billet {
+        border-top: none !important;
+        border-bottom: none !important;
+        border-right: solid #ced4da 1px !important;
+        border-left: solid #ced4da 1px !important;
+    }
+
+    .petit-top-br-0 {
+        border-top: none !important;
+    }
+
+    .petit-left-round-0 {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.25rem !important;
+    }
+
+    .border-rounded-right {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 0.25rem !important;
+    }
+}
+
+.information-tuto {
+    font-size: 12px;
+    text-decoration: underline;
+    text-align: right;
+    color: blue;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.toast {
+    position: fixed;
+    top: 100px;
+    right: 15px;
+}
+
+.img-commentaire {
+    width: 105px !important;
+    height: 105px !important;
+}
